@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div style="text-align: center">
+            <div id = "form">
+                <label>Digitar o nome da cidade</label>
+                <input type="text" id="cidade">
+                <button id="botao" onclick="getGeometryByCity()">Gerar SVG</button>
+            </div>
+            <svg id="svg" style="border:1px black solid;" xmlns="http://www.w3.org/2000/svg" >
+                <path id="path" fill="none" stroke="blue" stroke-width="0.001"/>
+            </svg>
+            <p id="codSvg"></p>
+        </div> 
+        <script src="index.js"></script>
+    </body>
+
+</html>
